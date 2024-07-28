@@ -1,9 +1,14 @@
-.avatar,
-.proportioned
-{
-width: 900px;
-
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
 }
 
-.avatar,
-.distorted
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* .class will target elements with class
+.class2 will target elements with class2
+.class.class2 will target ONLY elements that have BOTH classes.
+
