@@ -1,6 +1,25 @@
-body {
+body *{
+  outline: solid red 2px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.fruit {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text {
+  display: flex;
+  
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 
 img {
   width: 100px;
